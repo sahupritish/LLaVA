@@ -57,4 +57,5 @@ if __name__ == '__main__':
             stats = [round(x, 3) for x in stats]
             # print(k, stats, round(stats[1]/stats[0]*100, 1))
             print(k, round(stats[1]/stats[0]*100, 1), round(stats[0] * 10, 1), round(stats[1] * 10, 1))
+            print(round(stats[1] * 10, 1))
         print('=================================')
